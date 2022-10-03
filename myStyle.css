@@ -3,6 +3,29 @@
 h1 { 
     background-color: rgb(50, 28, 70);
     color: white;
-    }
+}
 
+h2 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.container {
+    flex:1;
+    box-align: "ceneter"
+}
+
+.side {
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile {
+    height: 200px;
+    float: right;
+}
 
